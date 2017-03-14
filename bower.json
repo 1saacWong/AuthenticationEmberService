@@ -1,5 +1,6 @@
 {
   "name": "my-auth-test",
   "dependencies": {
+    "ember-simple-auth": "0.8.0"
   }
 }

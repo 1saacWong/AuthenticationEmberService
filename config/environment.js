@@ -16,7 +16,16 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+    apiKey: 'AIzaSyCeZReLAoX0dBOZ79TJ2cYdUGoQbhS8AOk',
+    authDomain: 'my-test-login-f588c.firebaseapp.com',
+    databaseURL: 'https://my-test-login-f588c.firebaseio.com',
+    storageBucket: 'my-test-login-f588c.appspot.com',
+    messagingSenderId: "902199650701"
+      },
+      torii: {
+      sessionServiceName: 'session'
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
